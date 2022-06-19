@@ -1,0 +1,23 @@
+package exerc03_04;
+
+public class Exerc07 {
+
+	public static void main(String[] args) {
+
+				System.out.println("Programa para verificar qual número decimal, dentre 2, é maior:");
+
+				Double n1 = 55.9;
+				Double n2 = -43.7;
+
+				System.out.println("O primeiro número é 55.9.");
+				System.out.println("O segundo número é -43.7.");
+
+				if (n1 > n2) {
+					System.out.println(n1 + " é maior que " + n2);
+				} else {
+					System.out.println(n2 + " é maior que " + n1);
+				}
+				
+				System.out.print("Fim do programa.");
+			}
+		}
